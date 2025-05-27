@@ -1,2 +1,3 @@
-evdev
-Pillow
+git clone https://github.com/maxistruh22/Raspbberry-blototh-.git
+cd Raspbberry-blototh-
+python3 main.py
