@@ -72,7 +72,7 @@ root.title("Bluetooth Tastatur")
 root.geometry("800x480")  # Anpassen an deine Bildschirmgröße
 
 # Bild für den roten Knopf laden
-img = Image.open("assets/red_button.png")
+img = Image.open("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyWKCrsM8tr7qpv67p8tLa0YABhJcSElOWFnoPNFm9ZA&s")
 img = img.resize((100, 100))
 button_image = ImageTk.PhotoImage(img)
 
