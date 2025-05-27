@@ -1,0 +1,18 @@
+# info 
+# Bluetooth Tastatur mit Raspberry Pi Zero 2 W
+
+Dieses Projekt ermöglicht es, über den Touchscreen des Raspberry Pi verschiedene Aktionen auf einem verbundenen Windows-PC auszulösen, indem der Pi als Bluetooth-Tastatur fungiert.
+
+## Voraussetzungen
+
+- Raspberry Pi Zero 2 W
+- Touchscreen
+- Bluetooth aktiviert und mit dem Zielgerät gekoppelt
+- Python 3 installiert
+
+## Installation
+
+```bash
+sudo apt update
+sudo apt install python3-pip python3-pil python3-dev libevdev-dev evtest -y
+pip3 install -r requirements.txt
